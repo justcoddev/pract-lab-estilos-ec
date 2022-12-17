@@ -1,0 +1,23 @@
+{
+  "name": "pract-lab-estilos-ec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justcoddev/pract-lab-estilos-ec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justcoddev/pract-lab-estilos-ec/issues"
+  },
+  "homepage": "https://github.com/justcoddev/pract-lab-estilos-ec#readme",
+  "devDependencies": {
+    "sass": "^1.57.0"
+  }
+}
