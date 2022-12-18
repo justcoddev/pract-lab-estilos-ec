@@ -1,0 +1,135 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background-color: #220000;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.head__logo {
+  margin: 20px 0 0 30px;
+  padding: 3px;
+}
+.head__img {
+  width: 200px;
+  height: 100%;
+}
+.head__navbar {
+  display: flex;
+  margin-right: 10px;
+}
+.head__navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.head__navbar a:hover {
+  background: #3f3f3f;
+}
+
+.header {
+  align-items: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/web0000.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.header p {
+  margin-bottom: 70px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+.header__home {
+  display: flex;
+  margin-bottom: 100px;
+}
+.header__home a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #5b0101;
+  color: #fff;
+  text-decoration: none;
+  background: #000000;
+  margin: 0 10px;
+}
+
+.productos {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #1f1d1d;
+}
+.productos__title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.productos p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+.productos__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.productos__container__box {
+  height: 14rem;
+  width: 17rem;
+  background: #070000;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 5rem rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+.productos__container__box i {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #5b0101;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.productos__container__box h3 {
+  font-size: 20px;
+  color: #fff;
+}
+.productos__container__box p {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/*# sourceMappingURL=style.css.map */
