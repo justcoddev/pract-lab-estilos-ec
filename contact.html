@@ -8,86 +8,58 @@
   <title>Asaderos Rocky</title>
   <script src="https://kit.fontawesome.com/bb83622126.js" crossorigin="anonymous"></script>
   <link rel="icon" href="assets/img/LOGO002.ico">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="text-align: center; font-family: sans-serif; margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;">
-  <div
-    style="display: flex; align-items: center; justify-content: space-between; height: 63px; background-color: #220000; position: fixed; width: 100%; z-index: 100;"
-    class="head">
-
-    <div style="margin: 20px 0 0 30px ; padding: 3px;" class="logo">
-      <img style="width: 200px; height: 100%; " src="/assets/img/LOGO001.png" alt="">
-      <a style="text-decoration: none; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 20px;"
-        href="#"></a>
+<body>
+  <div class="head">
+    <div class="head__logo">
+      <img class="head__img" src="/assets/img/LOGO001.png" alt="">
+      <!-- <a href="#"></a> -->
     </div>
-
-    <nav style=" display: flex; margin-right: 10px;" class="navbar">
-      <style>
-        .navbar a:hover {
-          background: #3f3f3f;
-        }
-      </style>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="index.html">Inicio</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="about.html">Nosotros</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="contact.html">Contacto</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="productos.html">Productos</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="#">Buscar</a>
+    <nav class="head__navbar">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="contact.html">Contacto</a>
+      <a href="productos.html">Productos</a>
+      <a href="#">Buscar</a>
     </nav>
-
   </div>
   <!-- section - Contacto -->
-  <section
-    style="height: 85vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #171717;"
-    class="content about">
-    <h1
-      style="margin-bottom: 10px; margin-top: 100px; font-size: 60px; font-weight: 600; text-transform: uppercase; color: #fff;">
-      Contactanos</h1>
+  <section class="contact">
+    <h1>Contactanos</h1>
     <form method="POST" action="mailto:teddysummers24@gmail.com" enctype="text/plain" target="_blank">
       <fieldset>
-        <legend style="color: #fff;">Datos personales</legend>
+        <legend class="contact__legend">Datos personales</legend>
         <p>
-          <label style="color: #fff;" for="nombre">Nombres</label>
+          <label class="contact__label" for="nombre">Nombres</label>
           <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required pattern="[A-Za-z]+"
             required />
         </p>
         <p>
-          <label style="color: #fff;" for="apellidos">Apellidos</label>
+          <label class="contact__label" for="apellidos">Apellidos</label>
           <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tú Apellido" required
             pattern="[A-Za-z]+" required />
         </p>
         <p>
-          <label style="color: #fff;" for="email">Email</label>
+          <label class="contact__label" for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="example@gmail.com" required />
         </p>
         <p class="block">
-          <label style="color: #fff;" for="Mensaje">Mensaje</label>
+          <label class="contact__label" for="Mensaje">Mensaje</label>
           <textarea name="mensaje" id="mensaje" rows="3" placeholder="Dejanos tú mensaje..." minlength="5"></textarea>
         </p>
       </fieldset>
       <br />
-      <p class="button">
-        <button
-          style="display: inline-block; margin-top: 15px; padding: 10px 40px; border: 2px solid #5b0101; color: #fff; text-decoration: none; background: #000000; margin: 0 10px;"
-          type="submit">Enviar</button>
+      <p>
+        <button class="contact__button" type="submit">Enviar</button>
       </p>
     </form>
   </section>
   <!-- section UBICACIÓN -->
-  <section
-    style="height: 75vh; display: flex; flex-direction: column; justify-content: center; align-items: center;  padding: 30px; background: #1f1d1d"
-    class="content ubicacion">
-    <h2 style="margin-bottom: 40px;font-size: 60px; font-weight: 600; text-transform: uppercase; color: #fff;"
-      class="title">Ubicación</h2>
-    <p style=" margin-bottom: 40px; font-size: 18px; color: #fff; padding: 0 100px;">Nos encontramos ubicados en la
+  <section class="ubicacion">
+    <h2 class="ubicacion__title">Ubicación</h2>
+    <p>Nos encontramos ubicados en la
       calle Sucre y Octavio Ochoa, frente al Parque Primero de Mayo.</p>
     <div>
       <figure class="map">
@@ -99,37 +71,26 @@
     </div>
   </section>
   <!-- footer -->
-  <footer style="background: #171717; font-family: sans-serif; padding-top: 40px; color: #fff;">
-    <div
-      style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;"
-      class="footer-content">
-      <h3 style="font-size: 1.8rem; font-weight: 400; text-transform: capitalize; line-height: 3rem;">Asaderos Rocky
-      </h3>
-      <p style="max-width: 500px; margin: 10px auto; line-height: 28px; font-size: 14px;">Fabricación de Asaderos
+  <footer class="footer">
+    <div class="footer__content">
+      <h3 class="footer__title">Asaderos Rocky</h3>
+      <p>Fabricación de Asaderos
         Artesanales para uso personal o negocio.</p>
-      <ul style="list-style: none; display: flex; align-items: center; justify-content: center; margin: 1rem 0 3rem 0;"
-        class="socials">
-        <li style="margin: 0 10px;"><a style="text-decoration: none; color: #fff;"
-            href="https://www.instagram.com/asaderos.rocky/" target="_blank"> <i style="font-size: 1.rem;"
-              class="fa-brands fa-facebook"></i></a></li>
-        <li style="margin: 0 10px;"><a style="text-decoration: none; color: #fff;"
-            href="https://www.instagram.com/asaderos.rocky/" target="_blank"> <i style="font-size: 1.rem;"
-              class="fa-brands fa-instagram"></i></a></li>
-        <li style="margin: 0 10px;"><a style="text-decoration: none; color: #fff;"
-            href="https://www.instagram.com/asaderos.rocky/" target="_blank"> <i style="font-size: 1.rem;"
-              class="fa-brands fa-youtube"></i></a></li>
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/asaderos.rocky/" target="_blank">
+            <i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/asaderos.rocky/" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.instagram.com/asaderos.rocky/" target="_blank">
+            <i class="fa-brands fa-youtube"></i></a></li>
       </ul>
     </div>
-    <div style="background: #000000; padding: 20px 0; text-align: center;" class="footer-bottom">
-      <p style="font-size: 14px; word-spacing: 2px; text-transform: capitalize;">copyright &copy; 2022 <a
-          style="text-decoration: none; color: #fff;" href="https://github.com/lytasoft" target="_blank">Lytasoft</a>.
-        designed by <span style="text-transform: uppercase; opacity: .4; font-weight: 200;"><a
-            style="text-decoration: none; color: #fff;" href="https://github.com/justcoddev/pract-lab-html5-ec.git"
+    <div class="footer__bottom">
+      <p>copyright &copy; 2022 <a href="https://github.com/lytasoft" target="_blank">Lytasoft</a>.
+        designed by <span><a href="https://github.com/justcoddev/pract-lab-html5-ec.git"
             target="_blank">justcoddev</a></span></p>
     </div>
   </footer>
 </body>
-<!-- height: auto; width: 100vw; -->
-<!-- width: 100vw; -->
 
 </html>
