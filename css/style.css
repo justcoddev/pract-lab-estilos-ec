@@ -122,6 +122,130 @@
   color: #fff;
 }
 
+.about {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #171717;
+}
+.about__title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+.about video {
+  margin-bottom: 20px;
+}
+.about a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #5b0101;
+  color: #fff;
+  text-decoration: none;
+  background: #000000;
+  margin: 0 10px;
+}
+
+.ubicacion {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #1f1d1d;
+}
+.ubicacion__title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ubicacion p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+
+.footer {
+  background: #171717;
+  font-family: sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__content__title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer__content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.footer__content ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.footer__content ul li {
+  margin: 0 10px;
+}
+.footer__content ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__content ul li a i {
+  font-size: 1rem;
+}
+.footer__bottom {
+  background: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer__bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer__bottom p a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__bottom p span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.footer__bottom p a {
+  text-decoration: none;
+  color: #fff;
+}
+
 body {
   text-align: center;
   font-family: sans-serif;
