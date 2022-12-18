@@ -8,105 +8,53 @@
   <title>Asaderos Rocky</title>
   <script src="https://kit.fontawesome.com/bb83622126.js" crossorigin="anonymous"></script>
   <link rel="icon" href="assets/img/LOGO002.ico">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="text-align: center; font-family: sans-serif; margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;">
-    <!-- <body style="text-align: center; font-family: sans-serif; margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        vertical-align: baseline;"> -->
-  <div
-    style="display: flex; align-items: center; justify-content: space-between; height: 63px; background-color: #220000; position: fixed; width: 100%; z-index: 100;"
-    class="head">
-
-    <div style="margin: 20px 0 0 30px ; padding: 3px;" class="logo">
-      <img style="width: 200px; height: 100%; " src="/assets/img/LOGO001.png" alt="">
-      <a style="text-decoration: none; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 20px;"
-        href="#"></a>
+<body>
+  <div class="head">
+    <div class="head__logo">
+      <img class="head__img" src="/assets/img/LOGO001.png" alt="">
+      <!-- <a href="#"></a> -->
     </div>
-
-    <nav style=" display: flex; margin-right: 10px;" class="navbar">
-      <style>
-        .navbar a:hover {
-          background: #3f3f3f;
-        }
-      </style>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="index.html">Inicio</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="about.html">Nosotros</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="contact.html">Contacto</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="productos.html">Productos</a>
-      <a style="display: block; padding: 20px 20px; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; font-size: 20px;"
-        href="#">Buscar</a>
+    <nav class="head__navbar">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="contact.html">Contacto</a>
+      <a href="productos.html">Productos</a>
+      <a href="#">Buscar</a>
     </nav>
-
   </div>
   <!-- header - INICIO - HOME -->
-  <header style=" align-items: center; height: 50vh; display: flex; flex-direction: column; justify-content: flex-end;"
-    class="content header">
-    <style>
-      .header {
-        height: 100vh !important;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/web0000.jpg);
-        background-position: center;
-        background-size: cover;
-      }
-    </style>
-    <!-- <h2 style="margin-bottom: 40px;font-size: 60px; font-weight: 600; text-transform: uppercase; color: #fff;"
-      class="title">Inicio</h2> -->
-    <p style=" margin-bottom: 70px; font-size: 18px; color: #fff; padding: 0 100px;">
+  <header class="header">
+    <p>
       Fabricamos todo tipo de asaderos con materiales resistentes. <br /> ¡Solo bajo pedido!
     </p>
-    <div style="display: flex; margin-bottom: 100px;" class="btn-home">
-      <a style="display: inline-block; margin-top: 15px; padding: 10px 40px; border: 2px solid #5b0101; color: #fff; text-decoration: none; background: #000000; margin: 0 10px;"
-        href="about.html" class="btn">Saber mas</a>
+    <div class="header__home">
+      <a href="about.html" class="btn">Saber mas</a>
     </div>
-    <!-- <style>
-      .btn:hover {
-        background: none;
-      }
-    </style> -->
   </header>
   <!-- section - Carácteristicas -->
-  <section
-    style="height: 75vh; display: flex; flex-direction: column; justify-content: center; align-items: center;  padding: 30px; background: #1f1d1d"
-    class="content productos">
-    <h2 style="margin-bottom: 40px;font-size: 60px; font-weight: 600; text-transform: uppercase; color: #fff;"
-      class="title">Características</h2>
-    <p style=" margin-bottom: 40px; font-size: 18px; color: #fff; padding: 0 100px;">Actualmente el elaborar productos
+  <section class="productos">
+    <h2 class="productos__title">Características</h2>
+    <p>Actualmente el elaborar productos
       se basa en la petición del cliente debido a las carácteristicas que mas le convengan a la hora de realizar una
       asado en familia, amigos o negocios. <br /> Nos enfocaos en fabricar productos de calidad y cada uno acompañado de
       utensilios necesarios para su uso.</p>
-
-    <div style=" display: flex; justify-content: center; flex-wrap: wrap; text-align: center;" class="box-container">
-      <div
-        style=" height: 14rem; width: 17rem; background: #070000; text-align: center; border-radius: 1rem; box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5); margin: 2rem;"
-        class="box">
-        <i style="height: 4rem; width: 4rem; line-height: 4rem; text-align: center; border-radius: 50%; color: #fff; background: #5b0101; font-size: 3rem; margin: 1rem 0;"
-          class="fa-sharp fa-solid fa-fire"></i>
-        <h3 style=" font-size: 20px; color: #fff;">Resistencia</h3>
-        <p style="padding: 0 15px; font-size: 16px; color: #fff;">Nuestro producto es de calidad y resistente al fuego.
+    <div class="productos__container">
+      <div class="productos__container__box">
+        <i class="fa-sharp fa-solid fa-fire"></i>
+        <h3>Resistencia</h3>
+        <p>Nuestro producto es de calidad y resistente al fuego.
         </p>
       </div>
-      <div
-        style=" height: 14rem; width: 17rem; background: #070000; text-align: center; border-radius: 1rem; box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5); margin: 2rem;"
-        class="box">
-        <i style="height: 4rem; width: 4rem; line-height: 4rem; text-align: center; border-radius: 50%; color: #fff; background:#5b0101; font-size: 2rem; margin: 1rem 0;"
-          class="fa-sharp fa-solid fa-utensils"></i>
-        <h3 style=" font-size: 20px; color: #fff;">Utensilios</h3>
-        <p style="padding: 0 15px; font-size: 16px; color: #fff;">Los utensilios a la hora de usar los productos
+      <div class="productos__container__box">
+        <i class="fa-sharp fa-solid fa-utensils"></i>
+        <h3>Utensilios</h3>
+        <p>Los utensilios a la hora de usar los productos
           facilitan el
           mantenimiento.</p>
       </div>
-
     </div>
 
   </section>
