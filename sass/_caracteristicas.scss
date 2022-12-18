@@ -1,0 +1,64 @@
+.productos {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #1f1d1d;
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  & p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    &__box {
+      height: 14rem;
+      width: 17rem;
+      background: #070000;
+      text-align: center;
+      border-radius: 1rem;
+      box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+      margin: 2rem;
+
+      & i {
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        background: #5b0101;
+        font-size: 3rem;
+        margin: 1rem 0;
+      }
+
+      & h3 {
+        font-size: 20px;
+        color: #fff;
+      }
+
+      & p {
+        padding: 0 15px;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+  }
+}
