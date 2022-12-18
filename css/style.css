@@ -157,6 +157,43 @@
   margin: 0 10px;
 }
 
+.about2 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1f1d1d;
+}
+.about2__title {
+  margin-bottom: 10px;
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about2 p {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+.about2 video {
+  margin-bottom: 20px;
+}
+.about2 a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #5b0101;
+  color: #fff;
+  text-decoration: none;
+  background: #000000;
+  margin: 0 10px;
+}
+
 .ubicacion {
   height: 75vh;
   display: flex;
